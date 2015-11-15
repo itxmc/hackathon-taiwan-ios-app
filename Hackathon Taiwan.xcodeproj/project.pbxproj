@@ -15,6 +15,8 @@
 		5089B2411BF8BDEC0041D244 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5089B23F1BF8BDEC0041D244 /* LaunchScreen.storyboard */; };
 		5089B24C1BF8BDEC0041D244 /* Hackathon_TaiwanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5089B24B1BF8BDEC0041D244 /* Hackathon_TaiwanTests.swift */; };
 		5089B2571BF8BDEC0041D244 /* Hackathon_TaiwanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5089B2561BF8BDEC0041D244 /* Hackathon_TaiwanUITests.swift */; };
+		5089B2651BF8BE750041D244 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5089B2641BF8BE750041D244 /* MapKit.framework */; };
+		5089B2671BF8BE840041D244 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5089B2661BF8BE830041D244 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		5089B2521BF8BDEC0041D244 /* Hackathon TaiwanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hackathon TaiwanUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5089B2561BF8BDEC0041D244 /* Hackathon_TaiwanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hackathon_TaiwanUITests.swift; sourceTree = "<group>"; };
 		5089B2581BF8BDEC0041D244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5089B2641BF8BE750041D244 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5089B2661BF8BE830041D244 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5089B2671BF8BE840041D244 /* CoreLocation.framework in Frameworks */,
+				5089B2651BF8BE750041D244 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +85,8 @@
 		5089B2281BF8BDEC0041D244 = {
 			isa = PBXGroup;
 			children = (
+				5089B2661BF8BE830041D244 /* CoreLocation.framework */,
+				5089B2641BF8BE750041D244 /* MapKit.framework */,
 				5089B2331BF8BDEC0041D244 /* Hackathon Taiwan */,
 				5089B24A1BF8BDEC0041D244 /* Hackathon TaiwanTests */,
 				5089B2551BF8BDEC0041D244 /* Hackathon TaiwanUITests */,
