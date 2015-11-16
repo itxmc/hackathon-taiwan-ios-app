@@ -17,6 +17,7 @@
 		5089B2571BF8BDEC0041D244 /* Hackathon_TaiwanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5089B2561BF8BDEC0041D244 /* Hackathon_TaiwanUITests.swift */; };
 		5089B2651BF8BE750041D244 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5089B2641BF8BE750041D244 /* MapKit.framework */; };
 		5089B2671BF8BE840041D244 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5089B2661BF8BE830041D244 /* CoreLocation.framework */; };
+		50B1FF601BFA60E6008E917D /* thiredController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B1FF5F1BFA60E6008E917D /* thiredController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		5089B2581BF8BDEC0041D244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5089B2641BF8BE750041D244 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		5089B2661BF8BE830041D244 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		50B1FF5F1BFA60E6008E917D /* thiredController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thiredController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				5089B23D1BF8BDEC0041D244 /* Assets.xcassets */,
 				5089B23F1BF8BDEC0041D244 /* LaunchScreen.storyboard */,
 				5089B2421BF8BDEC0041D244 /* Info.plist */,
+				50B1FF5F1BFA60E6008E917D /* thiredController.swift */,
 			);
 			path = "Hackathon Taiwan";
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5089B2391BF8BDEC0041D244 /* SecondViewController.swift in Sources */,
+				50B1FF601BFA60E6008E917D /* thiredController.swift in Sources */,
 				5089B2351BF8BDEC0041D244 /* AppDelegate.swift in Sources */,
 				5089B2371BF8BDEC0041D244 /* FirstViewController.swift in Sources */,
 			);
@@ -497,6 +501,7 @@
 				5089B25D1BF8BDEC0041D244 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5089B25E1BF8BDEC0041D244 /* Build configuration list for PBXNativeTarget "Hackathon TaiwanTests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +510,7 @@
 				5089B2601BF8BDEC0041D244 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5089B2611BF8BDEC0041D244 /* Build configuration list for PBXNativeTarget "Hackathon TaiwanUITests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +519,7 @@
 				5089B2631BF8BDEC0041D244 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
