@@ -188,24 +188,14 @@
                                 <rect key="frame" x="180" y="72" width="240" height="231"/>
                                 <animations/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="C00-Bh-edh"/>
+                                    <constraint firstAttribute="width" constant="240" id="oxS-7D-AcN"/>
                                 </constraints>
                             </imageView>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U78-yd-cDS">
-                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
-                                <animations/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="vZN-2D-AfA"/>
-                                </constraints>
-                                <items>
-                                    <navigationItem title="About" id="G4f-wi-RNd"/>
-                                </items>
-                            </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Q: What is Hackathon?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AlW-vm-3yM">
                                 <rect key="frame" x="180" y="306" width="175" height="21"/>
                                 <animations/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="ghO-N6-KSW"/>
+                                    <constraint firstAttribute="height" constant="21" id="7wn-8u-lKt"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -217,50 +207,60 @@
                                 <rect key="frame" x="180" y="335" width="194" height="21"/>
                                 <animations/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="ln0-9K-KGg"/>
+                                    <constraint firstAttribute="height" constant="21" id="uRH-Qi-Mjv"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Q: How can i join to hackathon?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K4y-Ir-f3I">
                                 <rect key="frame" x="180" y="381" width="241" height="21"/>
                                 <animations/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="sbw-KL-9P7"/>
+                                    <constraint firstAttribute="height" constant="21" id="DeE-WR-Oxb"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A: You con visit to our website." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tkz-zK-YO7">
                                 <rect key="frame" x="180" y="410" width="235" height="21"/>
                                 <animations/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="ylO-t2-yZM"/>
+                                    <constraint firstAttribute="height" constant="21" id="cHK-LC-lnt"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U78-yd-cDS">
+                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="DiL-u4-yaR"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="About" id="G4f-wi-RNd"/>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="v8O-A6-mrm" firstAttribute="top" secondItem="AlW-vm-3yM" secondAttribute="bottom" constant="8" symbolic="YES" id="3B3-Zm-dJs"/>
-                            <constraint firstItem="tkz-zK-YO7" firstAttribute="top" secondItem="K4y-Ir-f3I" secondAttribute="bottom" constant="8" symbolic="YES" id="4rJ-WQ-mp5"/>
-                            <constraint firstItem="u6r-xh-YXV" firstAttribute="top" secondItem="U78-yd-cDS" secondAttribute="bottom" id="MH7-Eh-Ean"/>
-                            <constraint firstItem="v8O-A6-mrm" firstAttribute="leading" secondItem="AlW-vm-3yM" secondAttribute="leading" id="NrL-E5-Y7E"/>
-                            <constraint firstAttribute="trailing" secondItem="U78-yd-cDS" secondAttribute="trailing" id="P07-Tc-ONG"/>
-                            <constraint firstItem="u6r-xh-YXV" firstAttribute="centerX" secondItem="U78-yd-cDS" secondAttribute="centerX" id="PJT-V6-Wge"/>
-                            <constraint firstItem="K4y-Ir-f3I" firstAttribute="leading" secondItem="tkz-zK-YO7" secondAttribute="leading" id="RXF-VI-VJB"/>
-                            <constraint firstItem="U78-yd-cDS" firstAttribute="top" secondItem="6Oa-oB-C4K" secondAttribute="bottom" constant="8" id="Y0c-nR-jtY"/>
-                            <constraint firstItem="K4y-Ir-f3I" firstAttribute="leading" secondItem="v8O-A6-mrm" secondAttribute="leading" id="Zub-W3-8Wv"/>
-                            <constraint firstItem="tOM-2h-Kjm" firstAttribute="top" secondItem="tkz-zK-YO7" secondAttribute="bottom" constant="120" id="fSd-3W-ROP"/>
-                            <constraint firstItem="AlW-vm-3yM" firstAttribute="top" secondItem="u6r-xh-YXV" secondAttribute="bottom" constant="3" id="i5l-q0-xXQ"/>
-                            <constraint firstItem="u6r-xh-YXV" firstAttribute="leading" secondItem="AlW-vm-3yM" secondAttribute="leading" id="ra9-yM-KEb"/>
-                            <constraint firstItem="K4y-Ir-f3I" firstAttribute="top" secondItem="v8O-A6-mrm" secondAttribute="bottom" constant="25" id="reS-Ra-v8N"/>
-                            <constraint firstItem="U78-yd-cDS" firstAttribute="leading" secondItem="ZXU-de-PHg" secondAttribute="leading" id="xc1-U4-9rt"/>
+                            <constraint firstItem="AlW-vm-3yM" firstAttribute="leading" secondItem="u6r-xh-YXV" secondAttribute="leading" id="2Bs-XC-91r"/>
+                            <constraint firstItem="K4y-Ir-f3I" firstAttribute="top" secondItem="v8O-A6-mrm" secondAttribute="bottom" constant="25" id="40b-PP-L2U"/>
+                            <constraint firstItem="AlW-vm-3yM" firstAttribute="top" secondItem="u6r-xh-YXV" secondAttribute="bottom" constant="3" id="AZf-ix-YQh"/>
+                            <constraint firstItem="U78-yd-cDS" firstAttribute="top" secondItem="6Oa-oB-C4K" secondAttribute="bottom" id="EZD-ZU-BgD"/>
+                            <constraint firstItem="u6r-xh-YXV" firstAttribute="top" secondItem="U78-yd-cDS" secondAttribute="bottom" constant="8" id="Exq-be-KSr"/>
+                            <constraint firstItem="K4y-Ir-f3I" firstAttribute="leading" secondItem="tkz-zK-YO7" secondAttribute="leading" id="G8g-fa-Nch"/>
+                            <constraint firstAttribute="trailing" secondItem="U78-yd-cDS" secondAttribute="trailing" id="YOr-Bh-p1n"/>
+                            <constraint firstItem="U78-yd-cDS" firstAttribute="centerX" secondItem="u6r-xh-YXV" secondAttribute="centerX" id="c0X-wE-kid"/>
+                            <constraint firstItem="tOM-2h-Kjm" firstAttribute="top" secondItem="tkz-zK-YO7" secondAttribute="bottom" constant="120" id="dpb-iQ-NoO"/>
+                            <constraint firstItem="v8O-A6-mrm" firstAttribute="top" secondItem="AlW-vm-3yM" secondAttribute="bottom" constant="8" symbolic="YES" id="e81-3g-Ccz"/>
+                            <constraint firstItem="tkz-zK-YO7" firstAttribute="top" secondItem="K4y-Ir-f3I" secondAttribute="bottom" constant="8" symbolic="YES" id="h7Y-I3-C2K"/>
+                            <constraint firstItem="AlW-vm-3yM" firstAttribute="leading" secondItem="v8O-A6-mrm" secondAttribute="leading" id="pKK-Tw-mtb"/>
+                            <constraint firstItem="K4y-Ir-f3I" firstAttribute="leading" secondItem="v8O-A6-mrm" secondAttribute="leading" id="s0B-xe-kFV"/>
+                            <constraint firstItem="U78-yd-cDS" firstAttribute="leading" secondItem="ZXU-de-PHg" secondAttribute="leading" id="uuZ-M4-v2q"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="About" image="first" id="178-18-RUc"/>
